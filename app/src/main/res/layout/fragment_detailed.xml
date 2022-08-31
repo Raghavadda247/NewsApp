@@ -29,6 +29,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="25dp"
                 app:loadImage='@{articleItem.urlToImage}'
+
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
