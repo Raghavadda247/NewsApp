@@ -27,7 +27,7 @@
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="30dp"
+                android:layout_margin="25dp"
                 app:loadImage='@{articleItem.urlToImage}'
 
                 tools:srcCompat="@tools:sample/avatars" />
@@ -36,7 +36,7 @@
                 android:id="@+id/newTitle"
                 android:layout_width="385dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="10dp"
                 android:ems="10"
                 android:text="@{articleItem.title}" />
 
