@@ -27,7 +27,7 @@
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="25dp"
+                android:layout_margin="30dp"
                 app:loadImage='@{articleItem.urlToImage}'
 
                 tools:srcCompat="@tools:sample/avatars" />
